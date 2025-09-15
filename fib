@@ -1,0 +1,7 @@
+a,b=0,1
+print("fibonacci series")
+while a<=50:
+print(a,end="")
+c=a+b
+a=b
+b=c
